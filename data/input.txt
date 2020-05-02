@@ -1,0 +1,18 @@
+order 1001 buy 100 12.30
+order 1002 sell 100 12.20
+order 1003 buy 200 12.40
+order 1004 buy 300 12.15
+order 1005 buy 200 12.15
+order 1006 sell 100 12.15
+order 1007 buy 100 12.15
+order 1008 sell 100 12.50
+order 1009 buy 100 12.0
+cancel 1003
+amend 1004 600
+q level ask 0
+q level bid 1
+q order 1004
+order 1010 sell 1000 12.0
+q level ask 0
+q order 1010
+q order 2010

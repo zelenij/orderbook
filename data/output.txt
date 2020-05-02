@@ -1,0 +1,10 @@
+Fill: 100@12.3
+Fill: 100@12.15
+ask, 0, 12.5, 100
+bid, 1, 12, 100
+partial, leaves=500, filled=100, position=2
+Fill: 100@12
+Fill: 200@12.15
+Fill: 100@12.15
+ask, 0, 12, 600
+partial, leaves=600, filled=400, position=0
