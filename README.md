@@ -13,7 +13,7 @@ To compile: invoke cmake, pointing to the top level CMakeLists.txt file's locati
 cmake <path-to-dir>
 make
 
-The resulting binaries are in 
+In the build directory, the resulting binaries are in 
 
 * src/order_book
 * tests/order_book_test
