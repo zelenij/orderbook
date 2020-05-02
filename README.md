@@ -7,6 +7,8 @@
   * For Ubuntu install these packages: libgtest-dev googletest
 * CMake
 * Tested on Ubuntu only, but should work out of the box on any recent Mac or other Linux distribution as well
+* The sample input file and corresponding output are in the data subdirectory
+* The program might generate some error messages, indicating indalid input.  Those go to stderr, so are not captured in the output file. Redirecting 2>/dev/null gets rid of them altoghether from the screen
 
 To compile: invoke cmake, pointing to the top level CMakeLists.txt file's location, for example
 
