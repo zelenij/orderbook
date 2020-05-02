@@ -4,7 +4,7 @@
 
 * Requires a recent C++ compiler
 * Google Test (for testing)
-** For Ubuntu install these packages: libgtest-dev googletest
+  * For Ubuntu install these packages: libgtest-dev googletest
 * CMake
 * Tested on Ubuntu only, but should work out of the box on any recent Mac or other Linux distribution as well
 
